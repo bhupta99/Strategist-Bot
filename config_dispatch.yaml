@@ -1,0 +1,33 @@
+multi_select_enabled: true
+menu_auto_suggest: true
+allow_plaintext_commands: true
+auto_correct_misspelled_keywords: true
+contextual_command_menu: true
+predictive_button_depth: full
+
+bar_confluence_depth: ALL
+default_analysis_layers:
+  - gann_geometry
+  - kp_overlay
+  - bar_geometry
+  - fibonacci
+  - convergence_score
+
+backtest_sector_enabled: true
+backtest_sector_depth: 5
+backtest_bias_threshold: 3.5
+backtest_stock_enabled: true
+backtest_stock_days: 9
+backtest_sl_tolerance: 1.2
+backtest_target_multiplier: 1.6
+show_backtest_in_dispatch: true
+sectoral_bias_summary: true
+
+daily_dispatch_time: "08:00"
+weekly_dispatch_time: "17:55"
+monthly_dispatch_time: "20:55"
+astro_source_priority:
+  - DrikPanchang
+  - AstroSeek
+astro_backtest_depth: 9
+preferred_expiry_range: 5
